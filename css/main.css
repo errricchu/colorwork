@@ -1,0 +1,46 @@
+body {
+	text-align: center;
+}
+
+.box {
+	display: inline-block;
+	height: 45px;
+	width: 85%;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.gray {
+	background-color: gray;
+}
+
+@media (max-width: 600px) {
+  .blue {
+    display: none;
+  }
+
+ }
+
+@media (max-width: 600px) {
+  .orange {
+    display: none;
+  	}
+
+}
+ 
+@media (min-width: 1000px) {
+ 	.box {
+ 		width: 100%;
+
+ 	}
+ }
